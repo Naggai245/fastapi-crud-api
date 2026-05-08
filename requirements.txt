@@ -1,2 +1,5 @@
-django
-djangorestframework
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-dotenv
