@@ -8,6 +8,9 @@ class TaskBase(BaseModel):
 class TaskCreate(TaskBase):
     pass
 
+class TaskUpdate(TaskBase):
+    pass
+
 class TaskResponse(TaskBase):
     id: int
     class Config:
